@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/AngularController/Lesson3Controller.js" type="text/javascript">
+    
+</script>
+<div ng-controller="Lesson3Controller">
+    <li class="list-group-item" ng-repeat="product in products">
+        <div class="panel" ng-show="panel.isSelected(3)">
+            <h4>Reviews</h4>
+            <blockquote ng-repeat="review in product.reviews">
+                <b>Stars: {{review.stars}}</b>
+
+                {{review.body}}
+                <cite>{{review.author}}</cite>
+            </blockquote>
+        </div>
+    </li>
+</div>
