@@ -17,6 +17,26 @@
     //    function activate() { }
     //}
     var app = angular.module('MyApp', []);
+    app.controller('TabController', function($scope) {
+        $scope.tab = 1;
+        $scope.setTab = function(newValue) {
+            $scope.tab = newValue;
+        }
+
+        $scope.isSet = function(index) {
+            return $scope.tab === index;
+        };
+    });
+
+    app.controller('ReviewController', function($scope) {
+        $scope.review = {};
+
+        $scope.addReview = function (product) {
+            product.reviews.push($scope.review);
+            $scope.review = {}
+        };
+    });
+
     app.controller('Lesson3Controller', function ($scope) {
         $scope.products =
         [
@@ -41,8 +61,8 @@
 
             {
                 name: 'Test2',
-                price: 25,
-                description: "description1",
+                price: 21,
+                description: "description2",
                 reviews:
                     [
                         {

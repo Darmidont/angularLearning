@@ -26,5 +26,10 @@ namespace AngularLearning.Controllers
 
 			return View();
 		}
+
+		public ActionResult TestForm()
+		{
+			return View();
+		}
 	}
 }
