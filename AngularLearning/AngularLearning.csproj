@@ -162,8 +162,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Html\product-panel.html" />
+    <Content Include="Html\test1.html" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Scripts\AngularController\ControllerDirectiveController.js" />
+    <Content Include="Scripts\AngularController\DirectiveAController.js" />
+    <Content Include="Scripts\AngularController\DirectiveController.js" />
+    <Content Include="Scripts\AngularController\DirectiveEController.js" />
     <Content Include="Scripts\AngularController\Lesson3Controller.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -182,6 +188,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Html\test.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -198,6 +205,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Lesson3\Index.cshtml" />
     <Content Include="Views\Home\TestForm.cshtml" />
+    <Content Include="Views\Lesson3\DirectiveController.cshtml" />
+    <Content Include="Views\Lesson3\DirectiveE.cshtml" />
+    <Content Include="Views\Lesson3\DirectiveA.cshtml" />
+    <Content Include="Views\Lesson3\ControllerDirective.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

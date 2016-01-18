@@ -12,5 +12,25 @@ namespace AngularLearning.Controllers
 		{
 			return View();
 		}
+
+		public ActionResult DirectiveController()
+		{
+			return View();
+		}
+
+		public ActionResult DirectiveE()
+		{
+			return View();
+		}
+
+		public ActionResult DirectiveA()
+		{
+			return View();
+		}
+
+		public ActionResult ControllerDirective()
+		{
+			return View();
+		}
 	}
 }
